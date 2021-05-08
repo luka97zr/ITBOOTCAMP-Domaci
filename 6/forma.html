@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="forma">
+      <h1>Your payment details</h1>
+      <form>
+        <div class="forma_ime zajednicki">
+          <label for="name">name</label><br />
+          <input type="text" id="name" />
+        </div>
+        <div class="forma_broj zajednicki">
+          <label for="card">card number</label><br/>
+          <input type="number" class="forma_broj--slika" id="card"/>
+        </div>
+        <div class="forma_datum zajednicki">
+          <label for="date">expiration date</label><br />
+          <input type="number" placeholder="MM" id="date" m max="12"/> 
+          <input type="number" placeholder="YY" />
+        </div>
+        <div class="forma_cvc zajednicki">
+          <label for="cvc">CVC</label><br />
+          <input type="number" placeholder="123" id="cvc" />
+        </div>
+        <div class="forma_check zajednicki">
+          <input type="checkbox" checked/>Save my card for future purchases
+        </div>
+        <div class="forma_dugme zajednicki">
+          <input type="button" value="PAY NOW" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

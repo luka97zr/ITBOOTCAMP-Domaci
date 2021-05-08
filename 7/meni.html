@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100vw;
+        height: 70px;
+        background-color: cadetblue;
+    }
+   ul,li{
+       list-style-type: none;
+   }
+   nav>ul{
+       float: right;
+       text-align: center;
+     
+   }
+   .ima_podmeni{
+       width: 120px;
+       display: inline-block;
+       line-height: 70px ;
+       text-transform: uppercase;
+       position: relative;
+   }
+   .podmeni{
+       width:100%;
+       position: absolute;
+       top: 100%;
+       left: 0;
+      display: none;
+      height: 200px;
+      line-height: 50px;
+   }
+
+   li:hover .podmeni{
+       display: block;
+    
+   }
+   li:hover{
+       background-color: darkcyan;
+   }
+   
+</style>
+<body>
+    <nav>
+        <ul>
+            <li class="ima_podmeni">
+                <span>stavka 1</span>
+                    <ul class="podmeni">
+                        <li>podmeni 1</li>
+                        <li>podmeni 2</li>
+                        <li>podmeni 3</li>
+                        <li>podmeni 4</li>
+                    </ul>
+            </li>
+            <li class="ima_podmeni">
+                <span>stavka 2</span>
+                    <ul  class="podmeni">
+                        <li>podmeni 1</li>
+                        <li>podmeni 2</li>
+                        <li>podmeni 3</li>
+                        <li>podmeni 4</li>
+                    </ul>
+
+            </li>
+            <li class="ima_podmeni">
+                <span>stavka 3</span>
+                    <ul  class="podmeni">
+                        <li>podmeni 1</li>
+                        <li>podmeni 2</li>
+                        <li>podmeni 3</li>
+                        <li>podmeni 4</li>
+                    </ul>
+                </span>
+            </li>
+            <li class="ima_podmeni">
+                <span>stavka 4</span>
+                    <ul  class="podmeni">
+                        <li>podmeni 1</li>
+                        <li>podmeni 2</li>
+                        <li>podmeni 3</li>
+                        <li>podmeni 4</li>
+                    </ul>
+
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

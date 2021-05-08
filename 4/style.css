@@ -1,0 +1,23 @@
+
+fieldset{
+    width: 250px;
+    text-align: center;
+    background-color: rgba(46, 139, 86, 0.651);
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.formular{
+    padding-top: 15px;
+}
+
+input[type=number]{
+   margin-top: 5px;
+}
+
+input{
+    border-radius: 50px;
+}

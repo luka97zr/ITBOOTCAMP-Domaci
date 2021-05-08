@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .poster{
+            width:200px;
+            border:2px solid black;
+        }
+        .poster-naziv{
+            font-size: 11px;
+            text-align: left;
+            padding-top:5px;
+        }
+        .poster-naziv-prvi{
+            color:black;
+            text-transform: capitalize;
+        }
+        .poster-naziv-drugi{
+            color: red;
+            text-transform: uppercase;
+    
+        }
+        .poster-slika{
+            background: url("1.jpg") no-repeat 0px -5px / cover;
+            height: 200px;
+            border:dotted 2px red;
+            border-radius:50%;
+           }
+        .poster-opis h3{
+            color: blue;
+            text-align: left;
+            padding-left: 10px;
+        }
+        .poster-opis p{
+            height: 150px;
+            overflow: auto;
+            padding-left: 10px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <header class="poster-naziv">
+            <h1>
+                <span class="poster-naziv-prvi">film:</span>
+                <span class="poster-naziv-drugi">equalizer</span>
+            </h1>
+        </header>
+        <div class="poster-slika"></div>
+        <div class="poster-opis">
+            <h3>Opis:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, in ex consequuntur totam voluptas, quis labore quibusdam ratione sint cum voluptate distinctio nobis aperiam ab, eos mollitia impedit pariatur! 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quaerat hic maiores illum totam cupiditate quis consequuntur deserunt sint quae. Expedita animi est esse deserunt iste nihil nisi illo. Cupiditate.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

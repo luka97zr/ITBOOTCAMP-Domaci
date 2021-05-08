@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .wrapper{
+        height: 100vh;
+        overflow: auto;
+        scroll-snap-type: y mandatory;
+      }
+      .section {
+        scroll-snap-align:start;
+        margin-left: 20%;
+        height: 100vh;
+      }
+      .section.plavo {
+        background-color: blue;
+      }
+      .section.zeleno {
+        background-color: green;
+      }
+      .section.zuto {
+        background-color: yellow;
+      }
+      aside {
+        position: fixed;
+        height: 100vh;
+        width: 20%;
+        background-color: tomato;
+      }
+      
+    </style>
+  </head>
+  <body>
+      <div class="wrapper">
+    <aside>dasda</aside>
+    <header class="section plavo">cXZX</header>
+    <main>
+      <section class="section zeleno">dasasd</section>
+      <section class="section zuto">dsadasda</section>
+    </main>
+</div>
+  </body>
+</html>

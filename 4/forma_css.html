@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zadatak 2</title>
+    <style>
+        input{
+            background-color: rgba(216, 27, 27, 0.849);
+            color: #fff;
+        }
+        label{
+            color: #b31010;
+        }
+       textarea{
+           background-color: rosybrown;
+        }
+       
+    </style>
+</head>
+<body>
+    <body>
+        <form action="server.php" method="GET">
+            <fieldset>
+                <legend>Sportski formular</legend>
+                <div class="formular-ime formular ">
+                    <label for="ime" >Ime:</label>
+                    <input type="text" id="ime" name="ime"><br>
+                </div>
+    
+                <div class="formular-prezime formular" >
+                    <label for="prezime">Prezime:</label>
+                    <input type="text" id="prezime" name="prezime"> <br>
+                </div>
+    
+                <div class="formular-godine formular">
+                <label for="godine">Broj godina:</label>
+                <input type="number" name="godine" id="godine"><br>
+                </div>
+    
+                <div class="formular-pol formular">
+                    <label>Pol: </label><br>
+                    <input type="radio"  name="pol" value="m" >Muski <br>
+                    <input type="radio" name="pol" value="z" >Zenski
+                </div>
+    
+                <div class="formular-fakultet formular">
+                    <label for="fakultet">Fakultet: </label>
+                    <select name="fakultet" id="fakultet">
+                        <option value="dif">DIF</option>
+                        <option value="ftn">FTN</option>
+                        <option value="fon">FON</option>
+                        <option value="etf">ETF</option>
+                    </select>
+                </div>
+    
+                <div class="formular-indeks formular">
+                    <label for="indeks">Indeks: </label>
+                    <input type="password" maxlength="15" placeholder="123456" id="indeks" name="indeks">
+                </div>
+    
+                <div class="formular-sport formular">
+                    <label>Sportovi kojim se bavite:</label><br>
+                    <input type="checkbox" name="fudb">Fudbal <br>
+                    <input type="checkbox" name="teb">Tenis<br>
+                    <input type="checkbox" name="vat">Vaterolo <br>
+                    <input type="checkbox" name="kos">Kosarka<br>
+                    <input type="checkbox" name="dr">Drugo<br>
+                </div>
+    
+                <div class="formular-napomene formular">
+                    <textarea placeholder="Unesite bitne napomene.." cols="25" rows="8" name="napomena"></textarea>
+                </div>
+    
+                <div class="btn formular">
+                    <input type="button" value="Posalji" name="posalji">
+                </div>
+    
+            </fieldset>
+    
+        </form>
+</body>
+</html>

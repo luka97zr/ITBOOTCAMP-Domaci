@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 2000px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 60px;
+        background-color: rgba(167, 8, 8, 0.767);
+    }
+    nav>ul{
+        float: right;
+    }
+    .ima_podmeni{
+        width: 100px;
+        position: relative;
+        font-size: 20px;
+        display: inline-block;
+        text-align: center; 
+        line-height: 60px ;
+        margin-right: 25px;
+    }
+    .podmeni{
+        display: none;
+        width: 100%;
+    }
+    li:hover .podmeni{
+        display: block;
+        position: absolute;
+
+    }
+    .podmeni li:hover{
+        background-color: rgba(167, 8, 8, 0.767);
+    }
+    .tekst{
+        background-color: rgb(175, 150, 39);
+        height: 150px;
+    }
+  
+</style>
+<body>
+    <div class="tekst">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero commodi excepturi dolores harum. Iusto neque eligendi architecto, sunt eos rem incidunt aperiam non quaerat praesentium blanditiis atque nobis! Assumenda, illo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, illo quo sit expedita ab itaque doloremque pariatur alias perferendis. Assumenda quas voluptate fugit at quisquam? Facere suscipit maiores maxime minus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero commodi excepturi dolores harum. Iusto neque eligendi architecto, sunt eos rem incidunt aperiam non quaerat praesentium blanditiis atque nobis! Assumenda, illo!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, illo quo sit expedita ab itaque doloremque pariatur alias perferendis. Assumenda quas voluptate fugit at quisquam? Facere suscipit maiores maxime minus!</p>
+</div>
+    <nav>
+        <ul>
+            <li class="ima_podmeni">stavka1
+                <ul class="podmeni">
+                    <li>stavka1</li>
+                    <li>stavka2</li>
+                    <li>stavka3</li>
+                    <li>stavka4</li>
+                </ul>
+            </li>
+            <li class="ima_podmeni">stavka2
+                <ul class="podmeni">
+                    <li>stavka1</li>
+                    <li>stavka2</li>
+                    <li>stavka3</li>
+                    <li>stavka4</li>
+                </ul>
+            </li>
+            <li class="ima_podmeni">stavka3
+                <ul class="podmeni">
+                    <li>stavka1</li>
+                    <li>stavka2</li>
+                    <li>stavka3</li>
+                    <li>stavka4</li>
+                </ul>
+            </li>
+            <li class="ima_podmeni">stavka4
+                <ul class="podmeni">
+                    <li>stavka1</li>
+                    <li>stavka2</li>
+                    <li>stavka3</li>
+                    <li>stavka4</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

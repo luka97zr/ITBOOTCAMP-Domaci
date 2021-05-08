@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .forma {
+    background-color: #fff;
+    width: 350px;
+    height: 600px;
+    margin: 30px 0 0 50px;
+    
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  label {
+      display: inline-block;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .zajednicki {
+    margin-top: 25px;
+  }
+  div input:not(input[type="button"], input[type="checkbox"]) {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+  }
+  .forma_datum input[type="number"] {
+    display: inline-block;
+    width: 150px;
+    
+  }
+  input::placeholder{
+      font-size: 1.4em;
+      opacity: 0.7;
+  }
+    .forma_broj--slika {
+    background: url("cvc.png") no-repeat  left / 3em;
+    padding-left: 50px;
+     
+  }
+  input[type=checkbox]{
+    width: 1.3em;
+    height: 1.2em;
+    vertical-align: bottom;
+    margin: 10px 0 0 10px;
+  }
+  .forma_dugme>input{
+    background-color: #24cf60;
+    color:#fff;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5px gray;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all .3s;
+  }
+  .forma_dugme>input:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(128, 128, 128, 0.2);
+  }
+  .forma_dugme>input:active{
+      transform: translateY(1px);
+      box-shadow: 0 5px 100px  rgba(128, 128, 128, 0.2);
+  }
+  

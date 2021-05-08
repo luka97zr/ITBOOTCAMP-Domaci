@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .prvi{
+            position: fixed;
+            background: url("header.jpg") no-repeat center / cover;
+            top: 10%;
+            left: 10%;
+            width:80%;
+            height: 80%;
+        }
+        .drugi{
+            position: absolute;
+            background: url("close.png")no-repeat center / contain;
+            width: 20px;
+            height: 20px;
+            top: 0;
+            right: 0;
+        }
+        .drugi:hover{
+           transform: scale(1.2);
+            cursor:crosshair;
+        }
+    </style>
+</head>
+<body>
+    <div class="prvi">
+        <div class="drugi"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .forma{
+          background: #43D1AFed url("blue.jpg") no-repeat center / 100% 65% ;
+           width: 500px;
+           height: 310px;
+        }
+
+        .forma h1{
+          text-align: center;
+          padding-top: 10px;
+          color: white;
+        }
+        input[type=text], input[type=email], textarea{
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: .7em;
+        }
+        input:not(textarea){
+          height: 2.7em;
+         }
+        input[type=submit]{
+          font-size: 1.4em;
+          text-transform: capitalize;
+          font-weight: 600;
+         width: 100%;
+          background-color:#43D1AF;
+          color: white;
+          border:0;
+        }
+        input::placeholder,  textarea::placeholder{
+           padding-left: 1em;
+           padding-top: .5em;
+           font-size: 1.1em;
+        }
+  
+
+    </style>
+</head>
+<body>
+        <div class="forma">
+          <form>
+            <header>
+              <h1>Contact us</h1>
+            </header>
+            <input type="text" placeholder="Your Name" /><br />
+            <input type="email" placeholder="Email Address" /><br />
+            <textarea placeholder="Type your Message" cols="32" rows="5"></textarea>
+            <input type="submit" value="send" />
+          </form>
+        </div>
+</body>
+</html>

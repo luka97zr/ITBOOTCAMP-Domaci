@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .tabela{
+            width: 500px;
+            height: 200px;
+        }
+         
+        table{
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+            
+        }
+        table caption{
+            font-size: 20px;
+            background-color: orange;
+            color:#fff;
+            letter-spacing: 5px;
+        }
+        thead{
+            background-color: pink;
+            color: black;
+            text-align: center;
+ 
+        }
+        thead th:not(th:last-child) {
+            border-right:1px solid rgb(231,220,211); 
+        }
+        thead th{
+            height: 30px;
+        }
+        tbody tr:nth-child(even){
+            background-color: pink;
+            color: black;
+        }
+        tbody tr:nth-child(odd){
+            background-color:rgb(246,246,255);
+            color: black;
+        }
+        table tr:not(tfoot tr:last-child){
+            border-bottom: 1px solid orange;
+        }
+        tr td:not(:first-child){
+            text-align: right;
+        }
+        table tr td:not(:last-child){
+            border-right: 1px solid rgb(231,220,211);
+        }
+      
+        tfoot tr{
+            background-color:#687886 ;
+            color: #fff;
+        }
+        tfoot tr td:first-child{
+            border-right: 1px solid rgb(231,220,211);
+            text-align: right;
+            padding-right: 15px;
+        }
+    
+      
+    </style>
+</head>
+<body>
+    <div class="tabela">
+    <table>
+        <caption>Employee timecard</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Regular</th>
+                <th>Overtime</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total weekly hours:</td>
+                <td>48.5</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>8</td>
+                <td>2.5</td>
+                <td>10.5</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>0</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </tbody>       
+    </table>
+</div>
+</body>
+</html>
