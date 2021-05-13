@@ -23,15 +23,15 @@
     <table>
         <tr>
             <td><?=$a=mt_rand(1,10)?></td>
-            <td><?=pow($a,2)?></td>
+            <td><?=$a=pow($a,2)?></td>
         </tr>
         <tr>
             <td><?=$b=mt_rand(1,10)?></td>
-            <td><?=pow($b,2)?></td>
+            <td><?=$b=pow($b,2)?></td>
         </tr>
         <tr>
             <td><?=$c=mt_rand(1,10)?></td>
-            <td><?=pow($c,2)?></td>
+            <td><?=$c=pow($c,2)?></td>
         </tr>
     </table>
 </body>
