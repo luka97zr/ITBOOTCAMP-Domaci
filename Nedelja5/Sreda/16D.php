@@ -20,7 +20,7 @@ $d=$_GET['broj4'];
             }
         }  echo "<p>Drugi zbir je:$zbir2</p>";
     }else{
-        echo "Nije ispunjen uslov";
+        die ("Nije ispunjen uslov");
     }
 
 
