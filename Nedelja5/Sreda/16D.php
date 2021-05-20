@@ -23,7 +23,12 @@ $d=$_GET['broj4'];
         die ("Nije ispunjen uslov");
     }
 
+ if($zbir > $zbir2){
+     echo "<p>Veci je $zibr,zbir deljivih sa 4</p>";
+ }else{
+    echo "<p>Veci je $zbir2, zbir deljivih sa 3</p>";
 
+ }
 
 
 ?>
