@@ -16,7 +16,7 @@ function paragraf(){
     $b="Trkulja";
     echo "<p><span>$a </span><span>$b</span></p>";
 
-    $c="$a$b";
+    $c=$a.$b;
     return $c;
 }
 
