@@ -1,0 +1,19 @@
+.proizvod{
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+.proizvod img{
+    width: 200px;
+    height: 200px;
+}
+.stara_cena{
+    color:red;
+    text-decoration: line-through;
+}
+.nova_cena{
+    color:green;
+}
+.prava_cena{
+    color:black;
+}
