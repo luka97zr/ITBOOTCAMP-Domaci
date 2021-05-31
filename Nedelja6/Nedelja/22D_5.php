@@ -13,7 +13,7 @@ Rec "sto" se prikazuje u zelenoj boji, stolica u plavoj, mobilni u zutoj -->
 <?php
 
     $boje=['red','blue','orange'];
-    $reci=['sto','stolica','mobilni','sda'];
+    $reci=['sto','stolica','mobilni'];
     foreach($boje as $ind=>$element){
         foreach($reci as $ind2=>$element2){
            if($ind == $ind2){
