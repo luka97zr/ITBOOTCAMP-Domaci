@@ -15,7 +15,7 @@
 
     <?php
     function niz(){
-     $a=$_GET['brojevi'];
+     $a=trim($_GET['brojevi']);
      $y=explode(" ",$a);
      return $y;
     }
