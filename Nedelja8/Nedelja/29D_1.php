@@ -52,12 +52,7 @@
                     array_push($this->niz_sastojaka, $p);
                 }
         }
-        function kalorije($podaci){
-            $uk=0;
-            foreach($this->niz_sastojaka as $sastojak)
-            $uk += $sastojak->kalorije;
-            return $uk;
-        }
+        
         function prikazi(){
             print_r($this->niz_sastojaka);
            echo "<p>Naziv jela: $this->naslov, opis: $this->opis, kalorije:</p>";
