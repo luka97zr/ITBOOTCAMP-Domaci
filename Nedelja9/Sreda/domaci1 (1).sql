@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `domaci1`
 --
-CREATE DATABASE IF NOT EXISTS `9016_Luka_Trkulja` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `9016_Luka_Trkulja`;
+CREATE DATABASE IF NOT EXISTS `9016_Luka_Trkulja_D1` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `9016_Luka_Trkulja_D1`;
 
 -- --------------------------------------------------------
 
